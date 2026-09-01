@@ -1,0 +1,7 @@
+# Copy this file to config.sh (in this same directory) and fill in your
+# own values. config.sh is gitignored — never commit it.
+
+BUDDY_SERVER_URL="http://192.168.1.50:8765"   # your laptop's LAN IP/hostname + port
+BUDDY_TOKEN="change-me-to-a-long-random-secret"  # must match server/.env BUDDY_TOKEN
+BUDDY_POLL_INTERVAL=10                         # seconds between polls
+BUDDY_ALARM_SOUND="$HOME/buddymessanger-sounds/alarm.mp3"  # local sound file to play
