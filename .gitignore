@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets / local config
+.env
+server/.env
+itsbob/.env
+termux/config.sh
+
+# Server runtime state
+server/*.db
+server/images/
+server/buddymessanger.db
+
+# itsbob workspace inbox (received images/cursors)
+itsbob/workspace/
+
+# OS cruft
+.DS_Store
